@@ -1,0 +1,77 @@
+.siteImage{
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    
+    justify-content: center;
+}
+
+.inputcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width:400px;
+    height:30px
+}
+
+.containerPane{
+    width:600px;
+    height:400px;
+    background: rgba(255,255,255,0.3);
+  
+    border-radius: 10px;
+    
+    margin: auto;
+    margin-top:100px ;
+}
+ h4{
+    color:black;
+    text-align: center;
+    padding-top: 15px;
+  
+    
+}
+.imagebox{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width:70px
+}
+.resultvalue{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+}
+.resultvalue{
+    font-size: 20px;
+}
+
+.resultvalue > span{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.resultvalue > h3{
+    flex-basis: 100%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.col{
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    width: 150px;
+}
+.dev_name{
+    margin-top:25px;
+    padding: 5px;
+    color:#05fbe4;
+    font-size: 18px;
+}
