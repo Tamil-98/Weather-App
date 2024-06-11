@@ -75,3 +75,30 @@ img{
     color:#05fbe4;
     font-size: 18px;
 }
+@media only screen and (max-width : 600px){
+    .containerPane{
+        display: block;
+        width:350px;
+        height :auto;
+        
+    }
+    .row ,.col{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    .containerPane{
+        width:auto;
+        height:auto;
+        background: rgba(255,255,255,0.3);
+      
+        border-radius: 10px;
+        
+        margin: auto;
+        margin-top:100px ;
+    }
+   .col {
+    height: 75px;
+   }
+}

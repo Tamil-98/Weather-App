@@ -49,7 +49,7 @@ axios.get(url,{params:{
             </div>
 
             <div>
-                {weather.error &&(<p>Something went to Wrong...</p>)}
+                {weather.error &&(<p>Something went to Wrong,Kindly Enter Valid City name..</p>)}
                 
             </div>
 
